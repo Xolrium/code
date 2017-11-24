@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 {
 	private PlayerMotor motor;
 	[SerializeField]
-	public float speed = 5;
+	private float speed = 5;
 	[SerializeField]
 	private float sensitivity = 8;
 	private AudioSource aS;
